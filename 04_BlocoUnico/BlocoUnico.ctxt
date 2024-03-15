@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BlocoUnico
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ separador()
+comment3.params=nro1\ nro2
+comment3.target=double\ media(double,\ double)
+numComments=4

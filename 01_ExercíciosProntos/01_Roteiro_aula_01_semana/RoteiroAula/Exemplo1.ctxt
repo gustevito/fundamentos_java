@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Exemplo1
+comment0.text=\n\ O\ codigo\ declara\ 4\ variaveis\:\ uma\ do\ tipo\ "booleana"\ (verdadeiro\ ou\ falso),\ outra\ do\ tipo\ "char"\ (caractere\ unico),\ do\ tipo\ "string"\ (texto)\ e\ outra\ "int"\ que\ indica\ um\ numero\ inteiro.\n\ Depois\ dessas\ declara\u00E7oes,\ ele\ executa\ uma\ ordem\ de\ a\u00E7oes\ com\ essa\ variaveis\ e,\ ao\ final\ dessas\ a\u00E7oes,\ ele\ realiza\ uma\ combina\u00E7ao\ de\ variaveis\ que\ resultam\ em\ uma\ mensagem\ a\ ser\ exibida\ na\ tela\n\ \n\ \n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
