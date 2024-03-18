@@ -27,7 +27,7 @@ public class CalculoG1{
         System.out.println("Informe a nota do seu TF:");
         trabalhoFinal = teclado.nextDouble();
         
-        exercicios = (exercicioUm + exercicioDois + exercicioTres);
+        exercicios = (exercicioUm + exercicioDois + exercicioTres)/3;
         resultado = (provaUm + 2 * provaDois + exercicios + 2 * trabalhoFinal)/6;
         System.out.println("Valor medio: " + resultado);
         
