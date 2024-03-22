@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BibliotecaExer01
+comment0.text=\r\n\ Essa\ biblioteca\ serve\ para\ o\ projeto\ desenvolvido\ na\ aula\ referente\r\n\ a\ estruturas\ condicionais\ com\ uso\ de\ operadores\ l\u00F3gicos.\r\n\ Aqui\ utilizei\ a\ estrat\u00E9gia\ com\ duas\ classes\:\ BibliotecaExer01\ e\ Exer01\r\n\ \r\n\ Mas\ poderia\ ser\ implementado\ colocando-se\ estes\ dois\ m\u00E9todos\ dentro\ da\ \r\n\ classe\ Exer01.\ Os\ m\u00E9todos\ teriam\ a\ mesma\ programa\u00E7\u00E3o.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=n1\ n2\ n3
+comment1.target=double\ calNF(double,\ double,\ double)
+comment2.params=nf
+comment2.target=char\ verificaConceito(double)
+numComments=3

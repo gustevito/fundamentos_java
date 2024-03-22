@@ -7,22 +7,13 @@
  */
 
 import java.util.Scanner;
-public class CalcMedia extends Biblioteca{
-    public static void main(System args[]){
-        Scanner teclado = new Scanner(System.in);
-        double raio, base, altura, lado;
-        volume =
+public class CalcMedia {
+    public static void main (){
+        int numero = 8;
         
-        System.out.println("Insira um valor para raio");
-        raio = teclado.nextDouble();
-        System.out.println("Insira um valor para base");
-        base = teclado.nextDouble();
-        System.out.println("Insira um valor para altura");
-        altura = teclado.nextDouble();
-        System.out.println("Insira um valor para lado");
-        lado = teclado.nextDouble();
+        boolean retorno = Biblioteca.parImpar(numero);
         
-        System.out.println("Area do Circulo: " + );
+        System.out.println(retorno);
     }
-
 }
+
