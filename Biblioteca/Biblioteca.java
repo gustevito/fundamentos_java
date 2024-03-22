@@ -83,12 +83,34 @@ public class Biblioteca { // classe  biblioteca que sera utilizada para definir 
         }
     }
     
+    // metodo com funçao condicional para identificar o MAIOR dentre os 3 valores declarados
     public static double maiorValor (double x, double y, double z){
         if (x >= y && x >= z){
             return x;
         } else if (y >= x && y >= z){
             return y;
-        } return z;
+        } else return z;
+    }
+    
+    // metodo com funçao condicional para identificar o MENOR dentre os 3 valores declarados
+    public static double menorValor (double x, double y, double z){
+        if (x <= y && x <= z){
+            return x;
+        } else if (y <= x && y <= z){
+            return y;
+        } else return z;
+    }
+    
+    // metodo que identifica o valor INTERMEDIARIO dentre os 3 valores declarados, somando os tres valores e subtraindo o maior e o menor valor;
+    public static double valorIntermediario (double x, double y, double z){
+        double intermediario1, intermediario2, maior, menor;
+        
+        maior = maiorValor(x, y, z);
+        menor = menorValor(x, y, z);
+        intermediario1 = (x + y + z) - maior;
+        intermediario2 = intermediario1 - menor;
+        
+        return intermediario2;
     }
 }
    
