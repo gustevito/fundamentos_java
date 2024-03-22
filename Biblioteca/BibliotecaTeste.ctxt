@@ -1,6 +1,5 @@
 #BlueJ class context
-comment0.target=Biblioteca
-comment0.text=\n\ \n\ Classe\ utilizando\ metodos\ para\ calcular\ dados\ especificados\ atraves\ de\ um\ metodo\ main.\n\ \n\ @author\ (Gustavo\ Flores)\ \n\ @version\ (V\ 1.0)\n
+comment0.target=BibliotecaTeste
 comment1.params=raio
 comment1.target=double\ areaCirculo(double)
 comment10.params=raio\ altura
