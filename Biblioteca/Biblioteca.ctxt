@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Biblioteca
+comment1.params=raio
+comment1.target=double\ areaCirculo(double)
+comment10.params=raio\ altura
+comment10.target=double\ volumeCilindro(double,\ double)
+comment11.params=lado
+comment11.target=double\ volumeCubo(double)
+comment2.params=base\ altura
+comment2.target=double\ areaRetangulo(double,\ double)
+comment3.params=lado
+comment3.target=double\ areaQuadrado(double)
+comment4.params=base\ altura
+comment4.target=double\ areaTriangulo(double,\ double)
+comment5.params=raio
+comment5.target=double\ perimetroCirculo(double)
+comment6.params=base\ altura
+comment6.target=double\ perimetroRetangulo(double,\ double)
+comment7.params=lado
+comment7.target=double\ perimetroQuadrado(double)
+comment8.params=lado
+comment8.target=double\ perimetroTriangulo(double)
+comment9.params=raio
+comment9.target=double\ volumeEsfera(double)
+numComments=12
