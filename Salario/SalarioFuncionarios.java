@@ -7,7 +7,7 @@ public class SalarioFuncionarios{
         double horasValor;
         double salario;
         
-            for (int cont = 1; cont < 6 ; cont++){ // for (<valor inicial da varivavel>; <valor limite da variavel>; <funçao que o for vai executar>)
+            for (int cont = 1; cont < 6 ; cont++){ // for (<valor inicial da varivavel>; <valor limite da variavel>; <funçao que sera executada em cada loop>)
                
                 System.out.println("FUNCIONARIO" + cont);
             
