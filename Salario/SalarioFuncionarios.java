@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Salario{
+public class SalarioFuncionarios{
     public static void main (String args[]){
         Scanner teclado = new Scanner(System.in);
         
@@ -16,6 +16,7 @@ public class Salario{
         salario = BibliotecaSalario.calcSalario(horas, horasValor);
         System.out.println("Seu salário é de R$" + salario);
     }
+    
     
     // se eu quiser definir o método de calculo dentro da própria classe, é só eu fazer o seguinte:
     

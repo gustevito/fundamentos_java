@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=BibliotecaSalario
+comment1.params=h\ valor
+comment1.target=double\ calcSalario(double,\ double)
+numComments=2
