@@ -13,12 +13,18 @@ public class Imposto{
         codProduto = teclado.nextInt();
         
         preco = Biblioteca.precoQuilo(codProduto);
-        System.out.println("Este produto custa R$" + preco + "/KG");
+        System.out.println("Este produto custa R$" + preco + "/Kg");
         System.out.println("Agora, informe o peso (em Kg) do produto: ");
         
         quilo = teclado.nextDouble();
         calcPrecoQuilo = (preco * quilo);
+        if (calcPrecoQuilo < 0){
+            System.out.print("ERRO! Informe um valor valido para calcular!");
+            return;
+        } else {
         System.out.println("Valor: R$" + calcPrecoQuilo);
-        // agora vamos calcular o 
+        }
+        
+        // agora vamos calcular o imposto 
     }
 }
