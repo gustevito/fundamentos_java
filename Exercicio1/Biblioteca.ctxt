@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Biblioteca
+comment0.text=\r\n\ \r\n\ Classe\ utilizando\ metodos\ para\ calcular\ dados\ especificados\ atraves\ de\ um\ metodo\ main.\r\n\ \r\n\ @authors\ (Gustavo\ Flores\ e\ Phelippe\ Genari)\ \r\n\ @version\ (V\ 1.0)\r\n
+comment1.params=base\ altura
+comment1.target=double\ areaRetangulo(double,\ double)
+comment2.params=lado
+comment2.target=double\ areaQuadrado(double)
+comment3.params=base\ altura
+comment3.target=double\ areaTriangulo(double,\ double)
+comment4.params=area\ valor\ imposto
+comment4.target=double\ calcImposto(double,\ double,\ double)
+numComments=5
