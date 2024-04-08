@@ -70,6 +70,7 @@ public class E1GustavoPhelippe
                 // Amostragem dos valores finais para o usuário
                 System.out.println("R$ " + valor + " + " + "R$ " + valorFinal);
                 break;
+                
             case 2:
                 // Atribuição de valor da variável de imposto de acordo com a porcentagem a ser calculada
                 imposto = 0.173;
@@ -97,6 +98,7 @@ public class E1GustavoPhelippe
                 // Amostragem dos valores finais para o usuário
                 System.out.println("R$ " + valor + " + " + "R$ " + valorFinal);
                 break;
+                
             case 3:
                 // Atribuição de valor da variável de imposto de acordo com a porcentagem a ser calculada
                 imposto = 0.198;
@@ -124,6 +126,7 @@ public class E1GustavoPhelippe
                 // Amostragem dos valores finais para o usuário
                 System.out.println("R$ " + valor + " + " + "R$ " + valorFinal);
                 break;
+                
             default:
                 // Mensagem para caso do usuário digite outro código
                 System.out.println("Codigo inválido");
