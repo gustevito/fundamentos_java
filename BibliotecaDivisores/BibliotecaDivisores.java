@@ -24,21 +24,16 @@ public class BibliotecaDivisores{
     }
 
     public static boolean ehNumeroPerfeito(int x){
-        boolean ehNumeroP = false;
-        int qtdD = 0;
+        if (x <= 0){
+            return false;
+        }
         
-        for (int cont = 1; cont <= x; cont++){
-            if ( x % cont == 0){
-                qtdD = qtdD + cont;
+        int soma = 0;
+        for (int cont = 1; cont < x; cont++){
+            if (x % cont == 0){
+                soma += cont;
             }
-            
-            if ( qtdD == x) {
-                ehNumeroP = true;
-            } else{
-                ehNumeroP = false;
-            }
-        } 
-        return ehNumeroP;
+        } return soma == x;
     }
 }
     /*public static int ehNumeroAbundante(int x){
