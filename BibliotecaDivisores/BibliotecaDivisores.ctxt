@@ -4,4 +4,6 @@ comment1.params=x
 comment1.target=int\ qtdeDivisores(int)
 comment2.params=x
 comment2.target=boolean\ ehPrimo(int)
-numComments=3
+comment3.params=x
+comment3.target=boolean\ ehNumeroPerfeito(int)
+numComments=4

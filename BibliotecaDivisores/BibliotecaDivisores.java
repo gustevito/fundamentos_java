@@ -1,17 +1,15 @@
 public class BibliotecaDivisores{
     public static int qtdeDivisores(int x){
-        int qtdeD = 0;
+        int qtdD = 0;
         
         for (int cont = 1; cont <= x; cont++){
             if ( x % cont == 0) {
-                qtdeD++;
+                qtdD++;
             }
-        } return qtdeD;
-        
-        
+        } return qtdD;
     }
     
-    public static boolean ehPrimo(int x){ // um numero primo so pode ser divisivel por 2 inteiros: 1, e ele mesmo (quantidade de divisores = 2)
+    public static boolean ehPrimo(int x){ // um numero primo so pode ser divisivel por 2 inteiros: 1, e ele mesmo (qtd. de divisores = 2)
         boolean ehP = false;
         int qtdD = 0;
         
@@ -22,15 +20,28 @@ public class BibliotecaDivisores{
         } else{
             ehP = false;
         }
-        
         return ehP;
     }
 
-    public static int ehNumeroPerfeito(int x){
+    public static boolean ehNumeroPerfeito(int x){
+        boolean ehNumeroP = false;
+        int qtdD = 0;
         
+        for (int cont = 1; cont <= x; cont++){
+            if ( x % cont == 0){
+                qtdD = qtdD + cont;
+            }
+            
+            if ( qtdD == x) {
+                ehNumeroP = true;
+            } else{
+                ehNumeroP = false;
+            }
+        } 
+        return ehNumeroP;
     }
-    
-    public static int ehNumeroAbundante(int x){
+}
+    /*public static int ehNumeroAbundante(int x){
         
     }
     
@@ -41,4 +52,4 @@ public class BibliotecaDivisores{
     public static int saoAmigos(int x, int y){
         
     }
-}
+}*/
