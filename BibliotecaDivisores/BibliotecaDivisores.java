@@ -25,8 +25,8 @@ public class BibliotecaDivisores{
         
         return ehP;
     }
-}
-    /* public static int ehNumeroPerfeito(int x){
+
+    public static int ehNumeroPerfeito(int x){
         
     }
     
@@ -41,4 +41,4 @@ public class BibliotecaDivisores{
     public static int saoAmigos(int x, int y){
         
     }
-} */
+}
