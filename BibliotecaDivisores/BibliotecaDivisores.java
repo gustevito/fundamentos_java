@@ -35,16 +35,25 @@ public class BibliotecaDivisores{
             }
         } return soma == x;
     }
-}
-    /*public static int ehNumeroAbundante(int x){
+
+    public static boolean ehNumeroAbundante(int x){
+        if (x <= 0){
+            return false;
+        }
         
+        int soma = 0;
+        for (int cont = 1; cont < x; cont++){
+            if (x % cont == 0){
+                soma += cont;
+            }
+        } return soma > x;
     }
-    
+/*
     public static int ehNumeroCapicua(int x){
         
     }
     
     public static int saoAmigos(int x, int y){
         
-    }
-}*/
+    }*/
+}
