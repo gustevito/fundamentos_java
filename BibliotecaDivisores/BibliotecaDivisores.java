@@ -48,11 +48,11 @@ public class BibliotecaDivisores{
             }
         } return soma > x;
     }
-/*
+
     public static int ehNumeroCapicua(int x){
         
     }
-    
+/*    
     public static int saoAmigos(int x, int y){
         
     }*/

@@ -90,7 +90,7 @@ public class Biblioteca { // classe  biblioteca que sera utilizada para definir 
         } else if (y >= x && y >= z){
             return y;
         } else return z;
-    }
+    }    
     
     // metodo com funçao condicional para identificar o MENOR dentre os 3 valores declarados
     public static double numMenorValor (double x, double y, double z){
