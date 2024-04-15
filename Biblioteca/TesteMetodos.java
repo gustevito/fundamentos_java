@@ -19,6 +19,7 @@ public class TesteMetodos {
        int idade;
        int menor = 0;
        int maior = 0;
+       double media = 0;
        
        System.out.println("Bem vindo usuario, digite o codigo referente a conta que deseja realizar:");
        System.out.println();
@@ -29,9 +30,9 @@ public class TesteMetodos {
        codigo = teclado.nextInt();
        switch (codigo){
            case 1:
-               System.out.println("");
+               System.out.println();
                System.out.println("Insira a QUANTIDADE de pessoas de um grupo e suas respectivas idades para descobrir o MAIOR e o MENOR valor entre elas:"); 
-               System.out.println("");
+               System.out.println();
                System.out.println("Quantidade de pessoas no GRUPO:");
                grupo = teclado.nextInt();
                System.out.println("Agora, insira " + grupo + " idades");
@@ -52,9 +53,12 @@ public class TesteMetodos {
                    }
                }
                
+               
+               
                System.out.println("Menor idade: " + menor);
                System.out.println("Maior idade: " + maior);
-            
+               System.out.println();
+               System.out.println("Media das idades: " + media); 
            break;         
            default: System.out.println("ERRO");
        }
