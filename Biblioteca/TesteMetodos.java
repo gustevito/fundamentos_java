@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class TesteMetodos {
     public static void main (String args[]){
-       Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
        
        int codigo;
        
@@ -21,11 +21,16 @@ public class TesteMetodos {
        int maior = 0;
        double media = 0;
        
+       int x;
+       int z;
+       
        System.out.println("Bem vindo usuario, digite o codigo referente a conta que deseja realizar:");
        System.out.println();
        System.out.println("            MENU            ");
        System.out.println();
        System.out.println("    1 - MAIOR e MENOR idade     ");
+       System.out.println("    2 - Valores em ordem DECRESCENTE     ");
+       System.out.println("    3 - Valores em ordem CRESCENTE     ");
        
        codigo = teclado.nextInt();
        switch (codigo){
@@ -53,12 +58,41 @@ public class TesteMetodos {
                    }
                }
                
-               
-               
                System.out.println("Menor idade: " + menor);
                System.out.println("Maior idade: " + maior);
                System.out.println();
                System.out.println("Media das idades: " + media); 
+           break;
+           
+           case 2:
+               System.out.println("Insira o valor de X:");      
+               x = teclado.nextInt();
+               
+               do {
+               System.out.println("Insira um valor de Z maior do que X:");
+               z = teclado.nextInt();
+            } while (z <= x);
+            
+            System.out.println("Valores entre Z e X em ordem decrescente:");
+            while (z >= x){
+                System.out.println(z);
+                z--;
+            }
+           break;
+           case 3:
+               System.out.println("Insira o valor de X:");      
+               x = teclado.nextInt();
+               
+               do {
+               System.out.println("Insira um valor de Z maior do que X:");
+               z = teclado.nextInt();
+            } while (z <= x);
+            
+            System.out.println("Valores entre Z e X em ordem crescente:");
+            while (z >= x){
+                System.out.println(z);
+                z++;
+            }
            break;         
            default: System.out.println("ERRO");
        }
