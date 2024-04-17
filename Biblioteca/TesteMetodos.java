@@ -74,11 +74,12 @@ public class TesteMetodos {
             } while (z <= x);
             
             System.out.println("Valores entre Z e X em ordem decrescente:");
-            while (z >= x){
+            while (z <= x){
                 System.out.println(z);
                 z--;
             }
            break;
+           
            case 3:
                System.out.println("Insira o valor de X:");      
                x = teclado.nextInt();
@@ -88,10 +89,10 @@ public class TesteMetodos {
                z = teclado.nextInt();
             } while (z <= x);
             
-            System.out.println("Valores entre Z e X em ordem crescente:");
-            while (z >= x){
-                System.out.println(z);
-                z++;
+            System.out.println("Valores entre X e Z em ordem crescente:");
+            while (x <= z){
+                System.out.println(x);
+                x++;
             }
            break;         
            default: System.out.println("ERRO");

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=BibliotecaMultiplos
+comment1.params=a\ b
+comment1.target=int\ qtdeMultiplos(int,\ int)
+comment2.params=a\ b
+comment2.target=int\ somaDosPares(int,\ int)
+numComments=3

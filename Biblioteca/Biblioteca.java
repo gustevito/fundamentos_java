@@ -103,7 +103,10 @@ public class Biblioteca { // classe  biblioteca que sera utilizada para definir 
     
     // metodo que identifica o valor INTERMEDIARIO dentre os 3 valores declarados, somando os tres valores e subtraindo o maior e o menor valor;
     public static double numValorIntermediario (double x, double y, double z){
-        double intermediario1, intermediario2, maior, menor;
+        double intermediario1;
+        double intermediario2;
+        double maior;
+        double menor;
         
         maior = numMaiorValor(x, y, z);
         menor = numMenorValor(x, y, z);
