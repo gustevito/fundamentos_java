@@ -35,9 +35,9 @@ public class Multiplos{
                 int x = resultado;
                 primo = BibliotecaDivisores.ehPrimo(x);
                 if (primo){
-                    System.out.println( resultado + " É um número primo");
+                    System.out.println(resultado + " É um número primo");
                 } else {
-                    System.out.println( resultado + " NÃO É um número primo");
+                    System.out.println(resultado + " NÃO É um número primo");
                 }
                 
             break;
@@ -50,6 +50,21 @@ public class Multiplos{
                 
                 resultado = BibliotecaMultiplos.somaDosPares(a, b);
                 System.out.println("A soma dos pares entre A e B é: " + resultado);
+                
+                x = resultado;
+                abundante = BibliotecaDivisores.ehNumeroAbundante(x);
+                perfeito = BibliotecaDivisores.ehNumeroPerfeito(x);
+                if (abundante){
+                    System.out.println("O resultado é um número ABUNDANTE;");
+                } else {
+                    System.out.println("O resultado NÃO é um número abundante;");
+                }
+                
+                if (perfeito){
+                System.out.println("O resultado é um número PERFEITO;");               
+                } else {
+                    System.out.println("O resultado NÃO é um número PERFEITO;");
+                }
             break;
             default: System.out.println("ERRO!");
         }
