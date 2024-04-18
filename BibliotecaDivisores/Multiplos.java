@@ -9,6 +9,10 @@ public class Multiplos{
         int b;
         int resultado;
         
+        boolean primo;
+        boolean abundante;
+        boolean perfeito;
+        
         System.out.println("Bem vindo usuario, digite o codigo referente a conta que deseja realizar:");
         System.out.println();
         System.out.println("            MENU            ");
@@ -27,6 +31,15 @@ public class Multiplos{
                 
                 resultado = BibliotecaMultiplos.qtdeMultiplos(a, b);
                 System.out.println("Este numero possui " + resultado + " multiplos de 3.");
+              
+                int x = resultado;
+                primo = BibliotecaDivisores.ehPrimo(x);
+                if (primo){
+                    System.out.println( resultado + " É um número primo");
+                } else {
+                    System.out.println( resultado + " NÃO É um número primo");
+                }
+                
             break;
             case 2:
                 System.out.println("Insira um numero A:");
