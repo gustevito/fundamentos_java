@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=BibliotecaStrings
+comment0.text=\n\ semana\ do\ String\n\ analise\ os\ metodos\:\ (a)\ coloque\ nomes\ mais\ adequados\ ao\ que\ fazem;\ (b)coloque\ em\ comentarios\ como\ eles\ \ \n\ funcionam;\ (c)\ complete\ os\ m\u00E9todos\ que\ faltam\n\ Crie\ uma\ classe\ AppString\ que\ contenha\ o\ m\u00E9todo\ main\ para\ testar\ os\ m\u00E9todos\ da\ classe\ BibliotecaStrings\ \n
+comment1.params=palavra
+comment1.target=int\ vogais(java.lang.String)
+comment2.params=palavra
+comment2.target=boolean\ verficaInicio(java.lang.String)
+comment3.params=palavra
+comment3.target=boolean\ verificaFim(java.lang.String)
+comment4.params=palavra
+comment4.target=int\ metodo4(java.lang.String)
+comment5.params=verbo
+comment5.target=void\ metodo6(java.lang.String)
+numComments=6

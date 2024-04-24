@@ -48,11 +48,22 @@ public class BibliotecaDivisores{
             }
         } return soma > x;
     }
-/*
-    public static int ehNumeroCapicua(int x){
+    public static boolean ehCapicua(int x) {
+        // conversao do número para uma string para facilitar a análise
+        String numStr = String.valueOf(x);
         
+        // obter comprimento da string
+        int length = numStr.length();
+        
+        for (int i = 0; i < length / 2; i++) {
+            // comparando caracteres correspondentes da esquerda e da direita
+            if (numStr.charAt(i) != numStr.charAt(length - i - 1)) {
+                // se houver uma diferença, não é capicua
+                return false;
+            }
+        }
+        return true;
     }
-*/
     public static boolean saoAmigos(int x, int y){
             if (x <= 0 && y <= 0){
             return false;
