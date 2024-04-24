@@ -35,8 +35,25 @@ public class BibliotecaStrings
             return false;
         }
     }
+    
 
-    public static int quantidadeIn(String palavra){
+    public static boolean verificaInicioInput(String palavra, String input){
+        if(palavra.startsWith(input)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
+    public static boolean verificaFimInput(String palavra, String input){
+        if(palavra.endsWith(input)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
+    public static int verificaQuantidadeDeIn(String palavra){
         int total = 0;
         for(int cont = 0; cont < palavra.length(); cont++)
         {            
@@ -52,13 +69,13 @@ public class BibliotecaStrings
     }
 
     
-    public static void metodo6 (String verbo){
+    public static void conjugaVerboFuturo (String verbo){
         System.out.println("Eu " + verbo + "ei");
-        System.out.println("Tu " + verbo + "as");
-        System.out.println("Ele/Ela " + verbo + "a");
-        System.out.println("Nos " + verbo + "emos");
-        System.out.println("Vos " + verbo + "eis");
-        System.out.println("Eles/Elas " + verbo + "ao");
+        System.out.println("Tu " + verbo + "ás");
+        System.out.println("Ele/Ela " + verbo + "á");
+        System.out.println("Nós " + verbo + "emos");
+        System.out.println("Vós " + verbo + "eis");
+        System.out.println("Eles/Elas " + verbo + "ão");
     }
     
 // recebe uma string que contém várias palavras e retorna a quantidade de palavras da frase
