@@ -8,8 +8,7 @@
 public class BibliotecaStrings
 {
 
-    public static int vogais(String palavra)
-    {
+    public static int vogais(String palavra){
         int total = 0;
         for(int cont = 0; cont < palavra.length(); cont++)
         {
@@ -21,8 +20,7 @@ public class BibliotecaStrings
         return total;
     }
 
-    public static boolean verficaInicio(String palavra)
-    {
+    public static boolean verficaInicio(String palavra){
         if(palavra.startsWith("por")){
             return true;
         }else{
@@ -30,8 +28,7 @@ public class BibliotecaStrings
         }
     }
 
-    public static boolean verificaFI(String palavra)
-    {
+    public static boolean verificaFim(String palavra){
         if(palavra.endsWith("ar")){
             return true;
         }else{
@@ -39,8 +36,7 @@ public class BibliotecaStrings
         }
     }
 
-    public static int metodo4(String palavra)
-    {
+    public static int quantidadeIn(String palavra){
         int total = 0;
         for(int cont = 0; cont < palavra.length(); cont++)
         {            
@@ -56,9 +52,7 @@ public class BibliotecaStrings
     }
 
     
-
-    public static void metodo6 (String verbo)
-    {
+    public static void metodo6 (String verbo){
         System.out.println("Eu " + verbo + "ei");
         System.out.println("Tu " + verbo + "as");
         System.out.println("Ele/Ela " + verbo + "a");
