@@ -37,16 +37,16 @@ public class BibliotecaStrings
     }
     
 
-    public static boolean verificaInicioInput(String palavra, String input){
-        if(palavra.startsWith(input)){
+    public static boolean verificaInicioInput(String palavra, String prefixo){
+        if(palavra.startsWith(prefixo)){
             return true;
         }else{
             return false;
         }
     }
     
-    public static boolean verificaFimInput(String palavra, String input){
-        if(palavra.endsWith(input)){
+    public static boolean verificaFimInput(String palavra, String prefixo){
+        if(palavra.endsWith(prefixo)){
             return true;
         }else{
             return false;
