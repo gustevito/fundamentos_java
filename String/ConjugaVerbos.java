@@ -6,13 +6,13 @@ public class ConjugaVerbos{
         
         int codigo;
         boolean verifica;
-    
+        
         String verbo;
         
         
         System.out.println("    MENU DOS VERBOS    ");
         System.out.println("");
-        System.out.println("Selecione uma opção para conjugar o verbo de uma palavra:");
+        System.out.println("Selecione uma opção para conjugar o verbo REGULAR de uma palavra:");
         System.out.println("");
         System.out.println("    1 - Futuro     ");
         System.out.println("    2 - Presente     ");
@@ -21,7 +21,7 @@ public class ConjugaVerbos{
         codigo = teclado.nextInt();
         switch (codigo){
             case 1:
-                System.out.println("Digite um verbo para conjugá-lo no FUTURO:");
+                System.out.println("Digite um verbo REGULAR para conjugá-lo no FUTURO:");
                 verbo = teclado.next();
                 
                 verifica = BibliotecaStrings.verificaFim(verbo);
@@ -34,10 +34,11 @@ public class ConjugaVerbos{
             case 2:
                 System.out.println("Digite um verbo para conjugá-lo no PRESENTE:");
                 verbo = teclado.next();
+                char vogal = verbo.charAt(verbo.length() - 2);
                 
-                verifica = BibliotecaStrings.verificaFim(verbo);
+                verifica = BibliotecaStrings.verificaFimConjuga(verbo);
                 if (verifica == true){
-                    BibliotecaStrings.conjugaVerboFuturo(verbo);
+                    BibliotecaStrings.conjugaVerboPresente(verbo,vogal);
                 } else {
                     System.out.println("erro");
                 }

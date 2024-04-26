@@ -36,6 +36,14 @@ public class BibliotecaStrings
         }
     }
     
+    public static boolean verificaFim(String verbo){
+        if(verbo.endsWith("ar")){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
     public static boolean verificaFimInput(String palavra, String sufixo){
         if(palavra.endsWith(sufixo)){
             return true;
@@ -59,10 +67,10 @@ public class BibliotecaStrings
         return total;
     }
 
-    public static boolean verificaFim(String verbo){
-        if(verbo.endsWith("ar")){
+    public static boolean verificaFimConjuga(String verbo){
+        if(verbo.endsWith("ar") || verbo.endsWith("er") || verbo.endsWith("ir") || verbo.endsWith("or")){
             return true;
-        }else{
+        } else{
             return false;
         }
     }
@@ -76,28 +84,33 @@ public class BibliotecaStrings
         System.out.println("Eles/Elas " + verbo + "ão");
     }
     
-    public static void conjugaVerboPresente (String verbo){
-        String subverbo;
+    public static void conjugaVerboPresente (String verbo, char vogal){
+        verbo = verbo.substring(0, verbo.length() -2);
         
-        for(int cont = 0; cont < verbo.length(); cont++)
-        {            
-            if(verbo.charAt(cont) == 'a')
-            {                
-                if(verbo.charAt(cont+1) == 'r')
-                {
-                    
-                } 
-            } 
-        }
         
-        System.out.println("Eu " + verbo + "ei");
-        System.out.println("Tu " + verbo + "ás");
-        System.out.println("Ele/Ela " + verbo + "á");
-        System.out.println("Nós " + verbo + "emos");
-        System.out.println("Vós " + verbo + "eis");
-        System.out.println("Eles/Elas " + verbo + "ão");
+        System.out.println("Eu " + verbo + "o");
+        System.out.println("Tu " + verbo + vogal + "s");
+        System.out.println("Ele/Ela " + verbo + vogal);
+        System.out.println("Nós " + verbo + vogal + "mos");
+        System.out.println("Vós " + verbo + vogal + "is");
+        System.out.println("Eles/Elas " + verbo + vogal + "m");
     }
     
+    public static void conjugaVerboPassado (String verbo, char vogal){
+        if (verbo.endsWith("ar")){
+            verbo = verbo.substring(0, verbo.length() -2);   
+            
+            System.out.println("Eu " + verbo + "uei");
+            System.out.println("Tu " + verbo + vogal + "s");
+            System.out.println("Ele/Ela " + verbo + vogal);
+            System.out.println("Nós " + verbo + vogal + "mos");
+            System.out.println("Vós " + verbo + vogal + "is");
+            System.out.println("Eles/Elas " + verbo + vogal + "m");
+            
+        }
+       
+    // na moral fodase vai toma no cu vai se fuder porrra merda muita variaçao nessa merda de bosta porraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    }
     
     
 // recebe uma string que contém várias palavras e retorna a quantidade de palavras da frase
