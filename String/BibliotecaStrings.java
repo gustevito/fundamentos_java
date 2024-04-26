@@ -77,6 +77,14 @@ public class BibliotecaStrings
         System.out.println("Vós " + verbo + "eis");
         System.out.println("Eles/Elas " + verbo + "ão");
     }
+    public static void conjugaVerboPassado (String verbo){
+        System.out.println("Eu " + verbo + "ei");
+        System.out.println("Tu " + verbo + "ás");
+        System.out.println("Ele/Ela " + verbo + "á");
+        System.out.println("Nós " + verbo + "emos");
+        System.out.println("Vós " + verbo + "eis");
+        System.out.println("Eles/Elas " + verbo + "ão");
+    }
     
 // recebe uma string que contém várias palavras e retorna a quantidade de palavras da frase
 //    public static int contPalavras (String frase) {

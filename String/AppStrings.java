@@ -77,6 +77,8 @@ public class AppStrings{
                 infixos = BibliotecaStrings.verificaQuantidadeDeIn(palavra);
                 System.out.println("Esta palavra/frase possui " + infixos + " infixos 'in'.");
             break;
+            case 7:
+                System .out.println("");
             default: System.out.println("ERRO");
         }
     }
