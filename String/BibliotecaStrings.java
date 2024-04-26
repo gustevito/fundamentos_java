@@ -45,8 +45,8 @@ public class BibliotecaStrings
         }
     }
     
-    public static boolean verificaFimInput(String palavra, String prefixo){
-        if(palavra.endsWith(prefixo)){
+    public static boolean verificaFimInput(String palavra, String sufixo){
+        if(palavra.endsWith(sufixo)){
             return true;
         }else{
             return false;

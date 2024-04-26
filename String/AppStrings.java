@@ -6,9 +6,11 @@ public class AppStrings{
         
         int alternativa;
         int vogais;
+        int infixos;
         boolean verifica;
         
         String prefixo;
+        String sufixo;
         String palavra;
         
         System.out.println("    MENU    ");
@@ -18,7 +20,7 @@ public class AppStrings{
         System.out.println("    3 - Inicia com outro prefixo?   ");
         System.out.println("    4 - Termina com 'ar'?   ");
         System.out.println("    5 - Termina com outro sufixo?   ");
-        System.out.println("    6 - Quantidade de prefixo 'in' na palavra   ");
+        System.out.println("    6 - Quantidade de infixo 'in' na palavra   ");
         System.out.println("    7 - Ver as conjugaçoes de um verbo   ");
         
         alternativa = teclado.nextInt();
@@ -56,6 +58,24 @@ public class AppStrings{
                 
                 verifica = BibliotecaStrings.verificaFim(palavra);
                 System.out.println("'" + palavra + "' termina com o sufixo 'ar': " + verifica);
+            break;
+            case 5:
+                teclado.nextLine();
+                System.out.println("Digite um sufixo:");
+                sufixo = teclado.nextLine();
+                System.out.println("Digite uma palavra para descobrir se ela termina com o sufixo '" + sufixo + "'");
+                palavra = teclado.nextLine();
+                
+                verifica = BibliotecaStrings.verificaFimInput(palavra, sufixo);
+                System.out.println("'" + palavra + "' termina com o sufixo: " + verifica);
+            break;
+            case 6:
+                teclado.nextLine();
+                System.out.println("Digite uma palavra/frase para descobrir a quantidade de infixos 'in' nela:");
+                palavra = teclado.nextLine();
+                
+                infixos = BibliotecaStrings.verificaQuantidadeDeIn(palavra);
+                System.out.println("Esta palavra/frase possui " + infixos + " infixos 'in'.");
             break;
             default: System.out.println("ERRO");
         }
