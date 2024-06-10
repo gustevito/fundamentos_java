@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Pessoa
+comment1.params=nro\ nome
+comment1.target=Pessoa(int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getNro()
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=nro
+comment4.target=void\ setNro(int)
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
