@@ -31,14 +31,14 @@ public class AppCompra {
         System.out.println("\nDados da 2ª compra:");
         exibirDadosCompra(compra2);
 
-        // verificar se ambas as caixas possuem o mesmo tamanho
+        // verificaçao do metodo que compara os tamanhos das caixas
         if (compra1.mesmoTamanho(compra2)) {
             System.out.println("\nAs duas compras foram feitas de caixas de MESMO TAMANHO.");
         } else {
             System.out.println("\nAs duas compras foram feitas de caixas de tamanhos DIFERENTES.");
         }
 
-        // verificar se ambas as caixas possuem o mesmo fornecedor da cor da caixa
+        // verificaçao do metodo que compara os fornecedores das cores das caixas
         if (compra1.mesmoFornecedor(compra2)) {
             System.out.println("As duas compras possuem O MESMO fornecedor da cor da caixa.");
         } else {
