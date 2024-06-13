@@ -14,7 +14,7 @@ public class AppCaixa{
         Cor cor = new Cor ("Vermelha" , "Inc Coor");
         
         // mostrar a primeira caixa
-        Caixa c1 = new Caixa(3,3,3,cor);
+        Caixa c1 = new Caixa(3,3,3,cor, 'M'); // Adicionado o tamanho 'M'
         //System.out.println (caixaSapato.toString());
         System.out.println ("Mostrando a caixa c1 " + c1);
         
@@ -28,7 +28,7 @@ public class AppCaixa{
         // input de dados para a segunda caixa
         System.out.println ("Informe o valor da altura: ");
         double altura = teclado.nextDouble();
-        c2.setAltura (altura);
+        c2.setAltura (altura); 
         
         System.out.println ("Informe o valor da largura: ");
         double largura = teclado.nextDouble();
@@ -41,14 +41,18 @@ public class AppCaixa{
         teclado.nextLine();
         System.out.println ("Informe o nome da cor: ");
         String nome = teclado.nextLine();
+        System.out.println ("Informe o tamanho da caixa (P, M ou G): ");
+        char tamanho = teclado.nextLine().charAt(0); // Ajuste para capturar corretamente o tamanho
         System.out.println ("Informe o nome do fornecedor: ");
         String fornecedor = teclado.nextLine();
         
         Cor cor2 = new Cor (nome, fornecedor);
         
         c2.setCor(cor2);
+        c2.setTamanho(tamanho); // Certifique-se de que o tamanho é aplicado corretamente
         System.out.println ("Mostrando a caixa c2 " + c2);
-        
+    
+
         //System.out.println ("Fornecedor da caixa c2: " + c2.getCor().getFornecedor());
         
         /*

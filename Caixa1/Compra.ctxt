@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Compra
+comment1.params=
+comment1.target=Compra()
+comment2.params=cliente\ caixa
+comment2.target=Compra(Cliente,\ Caixa)
+comment3.params=
+comment3.target=Cliente\ getCliente()
+comment4.params=
+comment4.target=Caixa\ getCaixa()
+comment5.params=cliente
+comment5.target=void\ setCliente(Cliente)
+comment6.params=caixa
+comment6.target=void\ setCaixa(Caixa)
+comment7.params=outraCompra
+comment7.target=boolean\ mesmoTamanho(Compra)
+comment8.params=outraCompra
+comment8.target=boolean\ mesmoFornecedor(Compra)
+numComments=9
