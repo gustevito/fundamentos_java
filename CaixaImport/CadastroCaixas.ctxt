@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CadastroCaixas
+comment1.params=tam
+comment1.target=CadastroCaixas(int)
+comment2.params=c1
+comment2.target=boolean\ insereCaixa(Caixa)
+comment3.params=
+comment3.target=void\ mostraCaixas()
+numComments=4

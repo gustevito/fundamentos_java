@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cor
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Cor\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=nome\ fornecedor
+comment1.target=Cor(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=
+comment3.target=java.lang.String\ getFornecedor()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=fornecedor
+comment5.target=void\ setFornecedor(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

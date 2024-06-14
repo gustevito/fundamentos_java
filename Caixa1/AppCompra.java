@@ -8,19 +8,19 @@
 public class AppCompra {
     public static void main(String[] args) {
 
-        // objetos: clientes
+        // objeto: cliente
         Cliente cliente1 = new Cliente("Shaolin", "shaolinmatadordeporco@email.com", 1);
         Cliente cliente2 = new Cliente("Flavio", "flavindopneu@email.com", 2);
 
-        // objetos: cores/fornecedores
+        // objeto: cor/fornecedor
         Cor cor1 = new Cor("Vermelho", "Fornecedor A");
         Cor cor2 = new Cor("Amarelo", "Fornecedor B");
 
-        // objetos: caixas
+        // objeto: caixa
         Caixa caixa1 = new Caixa(16.0, 7.0, 3.0, cor1, 'M');
         Caixa caixa2 = new Caixa(8.0, 2.0, 3.0, cor1, 'G');
 
-        // objetos: compras
+        // objeto: compra
         Compra compra1 = new Compra(cliente1, caixa1);
         Compra compra2 = new Compra(cliente2, caixa2);
 
