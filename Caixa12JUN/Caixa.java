@@ -12,26 +12,22 @@ public class Caixa
     private double altura;
     private double profundidade;
     private Cor cor;
-
     
 
     // métodos Construtores
     public Caixa(){
-        this.largura = 0;
         this.altura = 0;
+        this.largura = 0;
         this.profundidade = 0;
         this.cor = null;
-
     }    
 
-    public Caixa (double largura, double altura,  double profundidade, Cor cor) {
-        this.largura = largura;
+    public Caixa (double altura, double largura,  double profundidade, Cor cor) {
         this.altura = altura;
+        this.largura = largura;
         this.profundidade = profundidade;
         this.cor = cor;
-
     }
-    
     // métodos setters
     public void setLargura (double largura){
         this.largura = largura;
@@ -49,8 +45,6 @@ public class Caixa
     {
         this.cor = cor;
     }
-    
-    
     // métodos getters
     public double getLargura (){
         return this.largura;
@@ -64,19 +58,19 @@ public class Caixa
         return this.profundidade;
     }
     
-    public Cor getCor(){
+    public Cor getCor()
+    {
         return this.cor;
     }
-    
-    public double volume (){
+
+    public double volume ()
+    {
         return this.largura * this.altura * this.profundidade;
     }
 
     public String toString(){
-       return ("\nAltura da caixa: " + this.altura + 
-        "\nLargura da caixa: "+ this.largura + 
-        "\nProfundidade da caixa: " + this.profundidade + 
-        "\nCor: " + this.cor);
+       return ("\nAltura da caixa: " + this.altura + "\nLargura da caixa: "+ this.largura +  
+                "\nProfundidade da caixa: " + this.profundidade + " Cor: " + this.cor);
     }
 
 } // fim da classe

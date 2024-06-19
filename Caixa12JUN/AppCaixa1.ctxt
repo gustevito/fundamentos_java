@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AppCaixa1
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=nome\ caixas
+comment2.target=void\ leCaixas(java.lang.String,\ Caixa[])
+comment3.params=nome\ caixas
+comment3.target=void\ escreveCaixas(java.lang.String,\ Caixa[])
+numComments=4
