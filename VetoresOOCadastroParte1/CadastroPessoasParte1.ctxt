@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CadastroPessoasParte1
+comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ CadastroPessoa\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=tamanho
+comment1.target=CadastroPessoasParte1(int)
+comment2.params=p1
+comment2.target=boolean\ adicionaNoVetor(Pessoa)
+comment3.params=p1
+comment3.target=int\ localizaPessoa(Pessoa)
+comment4.params=
+comment4.target=void\ imprimeVetor()
+comment5.params=
+comment5.target=int\ contaSuperSalario()
+comment6.params=
+comment6.target=double\ maiorSalario()
+numComments=7
