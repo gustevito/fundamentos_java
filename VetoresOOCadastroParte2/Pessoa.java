@@ -7,40 +7,27 @@ public class Pessoa{
         this.nome = nome;
         this.codigo = codigo;
         this.salario = salario;
-        
     }
-    
-    // setters
     public void setNome(String nome){
         this.nome = nome;
     }
-    
-    public void setCodigo(int codigo){ 
-        this.codigo = codigo;
-    }
-    
-    public void setSalario(double salario){ 
-        this.salario = salario;
-    }
-    
-    
-    
-    // getters
     public String getNome(){
         return this.nome;
     }
-
+    public void setCodigo(int codigo){ 
+        this.codigo = codigo;
+    }
     public int getCodigo(){ 
         return this.codigo;
     }
-
+    public void setSalario(double salario){ 
+        this.salario = salario;
+    }
     public double getSalario(){ 
         return this.salario;
     }
-    
-    
-    
-    public void aumentoSalarial(){
+    public void aumentoSalarial()
+    {
         if (this.codigo >=1 && this.codigo <=4)
         {
             this.salario = this.salario + ((this.salario*15)/100);
@@ -60,11 +47,7 @@ public class Pessoa{
             }
         }
     }
-    
-    // toString
     public String toString() {
-        return "\nNome: " + this.nome + 
-        "\nCodigo: " + this.codigo + 
-        "\nSalario: R$" + this.salario;
+        return "\nNome: " + this.nome + " Codigo: " + this.codigo + " Salario: " + this.salario;
     }
 }
