@@ -1,11 +1,11 @@
 #BlueJ package file
-dependency1.from=CadastroPessoasParte1
-dependency1.to=Pessoa
+dependency1.from=App
+dependency1.to=CadastroPessoasParte2
 dependency1.type=UsesDependency
 dependency2.from=App
-dependency2.to=CadastroPessoasParte1
+dependency2.to=Pessoa
 dependency2.type=UsesDependency
-dependency3.from=App
+dependency3.from=CadastroPessoasParte2
 dependency3.to=Pessoa
 dependency3.type=UsesDependency
 editor.fx.0.height=1042
@@ -40,7 +40,7 @@ target1.width=160
 target1.x=100
 target1.y=10
 target2.height=70
-target2.name=CadastroPessoasParte1
+target2.name=CadastroPessoasParte2
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=200
