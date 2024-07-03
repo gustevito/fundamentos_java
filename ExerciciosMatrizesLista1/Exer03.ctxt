@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Exer03
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=nome\ vetor
+comment2.target=void\ leVetor(java.lang.String,\ int[])
+comment3.params=matriz
+comment3.target=void\ mostraMatriz(int[][])
+comment4.params=vetor
+comment4.target=int[][]\ criaMatriz(int[])
+comment5.params=vetor\ linha\ coluna
+comment5.target=int[][]\ jogaNaMatriz(int[],\ int,\ int)
+numComments=6
