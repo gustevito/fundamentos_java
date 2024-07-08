@@ -1,10 +1,3 @@
-
-/**
- * semana do String
- * analise os metodos: (a) coloque nomes mais adequados ao que fazem; (b)coloque em comentarios como eles  
- * funcionam; (c) complete os métodos que faltam
- * Crie uma classe AppString que contenha o método main para testar os métodos da classe BibliotecaStrings 
- */
 public class BibliotecaStrings
 {
 
@@ -108,8 +101,6 @@ public class BibliotecaStrings
             System.out.println("Eles/Elas " + verbo + vogal + "m");
             
         }
-       
-    // na moral fodase vai toma no cu vai se fuder porrra merda muita variaçao nessa merda de bosta porraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     }
     
     
